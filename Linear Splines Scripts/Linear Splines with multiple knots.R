@@ -18,5 +18,4 @@ yhatbad4 <- predict(mod_ls4)
 ggplot() +
   geom_point(aes(x = x, y = y), color = "green", alpha = .5) +
   geom_line(aes(x = x, y = yhatbad3), color = "blue") +
-  geom_line(aes(x = x, y = yhatbad4), color = "red") +
-  labs(title = "Piecewise linear spline - Good number vs. too many knots...")
+  geom_line(aes(x = x, y = yhatbad4), color = "red") 
